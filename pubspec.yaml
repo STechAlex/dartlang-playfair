@@ -1,0 +1,6 @@
+name: PlayfairCipher
+version: 0.0.1
+author: Alex Dills
+description: A test and demonstration of the playfair cipher in Dartlang.
+dependencies:
+  browser: any

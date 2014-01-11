@@ -1,0 +1,17 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+.playfairPane h3{
+  text-align: center;
+}
+.playfairTextArea {
+  resize: none;
+}
+h1 {
+  font-size: 2em;
+}
