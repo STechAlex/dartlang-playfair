@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PlayfairCipher</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="playfaircipher.css">
+  </head>
+  <body>
+    <h1>A Dart Demonstration of the Playfair Cipher</h1>
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-5">
+        Key <input type="text" id="cipherKey">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-6 playfairPane pane-left">
+        <h3>Plaintext</h3>
+        <textarea class="form-control playfairTextArea" id="plaintextArea" rows="8"></textarea>
+      </div>
+      <div class="col-sm-6 playfairPane pane-right">
+        <h3>Ciphertext</h3>
+        <textarea class="form-control playfairTextArea" id="ciphertextArea" rows="8"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="disclaimer">Note: This page uses Dart compiled to Javascript</p>
+      </div>
+    </div>
+    
+    <script type="application/javascript" src="playfaircipher.dart.js"></script>
+  </body>
+</html>
