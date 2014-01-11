@@ -207,16 +207,4 @@ class Square {
   String getLetterAt(int row, int column){
     return this.rows[row][column];
   }
-
-  List toList(){
-    return this.alphabet;
-  }
-  
-  List getColumns(){
-    return this.columns;
-  }
-  
-  List getRows(){
-    return this.rows;
-  }
 }
